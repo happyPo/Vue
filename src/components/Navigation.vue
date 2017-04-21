@@ -3,9 +3,10 @@
         <router-link to="/">Home</router-link>
         <router-link to="/users">Users</router-link>
         <router-link to="/about">About</router-link>
+        <router-link to="/adduser">Add User</router-link>
     </nav>
 </template>
-<style>
+<style >
 nav{
     text-align: center;
     font-size: 15px;

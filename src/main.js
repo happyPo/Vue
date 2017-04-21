@@ -8,6 +8,7 @@ import About from './components/About'
 import Home from './components/home/Home'
 import Users from './components/users/Users'
 import UserDetail from './components/users/UserDetail'
+import CreateUser from './components/CreateUser'
 
 Vue.use(VueResource);
 Vue.use(VueRouter);
@@ -17,6 +18,7 @@ Vue.use(VueRouter);
 Vue.config.productionTip = false;
 
 
+
 const router = new VueRouter({
     mode: 'history',
     base: __dirname,
@@ -24,6 +26,7 @@ const router = new VueRouter({
         {path: '/about', component: About},
         {path: '/', component: Home},
         {path: '/users', component: Users},
+        {path: '/adduser', component: CreateUser},
         {path: '/user/:id', name:'user', component: UserDetail}
     ]
 });

@@ -138,6 +138,7 @@ input {
     padding: 10px 15px;
     width: 200px;
     border: 2px solid #ccc;
+    text-transform: capitalize;
 }
 
 .header {

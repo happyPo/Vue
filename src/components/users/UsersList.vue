@@ -1,13 +1,12 @@
 <template>
     <div>
-        <CreateUser/>
         <ul class="list">
             <User v-for="(user, index) in filteredUser" :user_data="{user: user, user_index: index}" :key="this.id"/>
         </ul>
     </div>
 </template>
 <script>
-    import CreateUser from '../CreateUser.vue'
+    import CreateUser from '../CreateUser'
     import UsersFilter from '../filter/UsersFilter'
     import UserDetail from './UserDetail'
     import User from './User'
