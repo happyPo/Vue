@@ -1,0 +1,219 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font: 15px/1.25 "Trebuchet MS", sans-serif;
+    margin: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 80px 0 0;
+    box-sizing: border-box;
+}
+
+.frame {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.list li {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 20%;
+}
+
+.list h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+
+.list h2 span {
+    font-size: 75%;
+    font-weight: normal;
+}
+
+.list img {
+    vertical-align: top;
+}
+
+.list img {
+    vertical-align: top;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter p {
+    margin: 0;
+}
+
+.f-row{
+    margin:10px 0;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 200px;
+    border: 2px solid #ccc;
+}
+
+.header {
+    padding: 20px;
+    background: #3f3f3f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section-home {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.section-inner {
+    padding: 50px 0;
+}
+
+.section-inner img {
+    margin: 0 auto 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    background: #376fff;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #284da8;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.user-info .text-block {
+    padding: 0 10px;
+}
+
+dl dt {
+    display: inline-block;
+}
+
+.-centered {
+    text-align: center;
+}
